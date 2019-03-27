@@ -1,0 +1,98 @@
+body {
+    background: #fff;
+    font-family: "PT Sans", sans-serif;
+    font: 100% / normal "PT Sans", sans-serif;
+    line-height: normal;
+    font-stretch: normal;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  a {
+    color: #fff;
+  }
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+  nav > a {
+    font-size: 1rem;
+  }
+  .h1 {
+    font-size: 1.9rem;
+  }
+  
+  .head {
+    background-color: #0a3370;
+    border-bottom: 2px solid #a6ce38;
+  }
+  .text-mt {
+    color: #a6ce38;
+  }
+  
+  .jum {
+    padding: 10rem 0;
+    background: url("https://www.dipacademy.ru/upload/medialibrary/2ff/main_pic.png");
+    background-size: cover;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 0.5rem;
+  }
+  
+  .mega-menu {
+    width: 800px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .breadcrumb {
+    background-color: #0a3370;
+  }
+
+
+  .bio_img_cont{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 510px;
+  }
+
+  .person__photo{
+    float: left;
+    margin-top: -300px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .person__img{
+    margin: 0 45px 30px 60px;
+    width: 410px;
+    height: 550px;
+  }
+
+  .person__name{
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: 400px;
+    color: #fff
+  }
+
+
+
+.person__data{
+  float: left;
+  z-index: 1;
+  position: relative;
+  color: #000;
+  margin-top: -135px; 
+}
+
+.person__post{
+  color: #b2b2b2;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 80px
+}
